@@ -8,3 +8,11 @@ export const queryType = new GraphQLObjectType({
     ...memberField.query
   }
 });
+
+export const mutationType = new GraphQLObjectType({
+  name: 'Mutation',
+  description: 'The root Mutation type.',
+  fields: {
+    ...memberField.mutation
+  }
+});

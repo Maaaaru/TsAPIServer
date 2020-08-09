@@ -1,6 +1,6 @@
 import * as express from 'express';
 import { GraphQLSchema } from 'graphql';
-import { queryType } from '@/fields/';
+import { queryType, mutationType } from '@/fields/';
 
 const graphqlHTTP = require('express-graphql').graphqlHTTP;
 
@@ -9,7 +9,8 @@ const PORT = 4000;
 const app = express();
 
 const schema = new GraphQLSchema({
-  query: queryType
+  query: queryType,
+  mutation: mutationType
 });
 
 app.use('/graphql', graphqlHTTP({

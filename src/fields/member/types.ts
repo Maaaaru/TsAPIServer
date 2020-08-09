@@ -1,4 +1,4 @@
-import { GraphQLObjectType, GraphQLNonNull, GraphQLString, GraphQLInt } from 'graphql';
+import { GraphQLObjectType, GraphQLNonNull, GraphQLString, GraphQLInt, GraphQLInputObjectType } from 'graphql';
 
 export const memberType = new GraphQLObjectType({
   name: 'member',
@@ -8,6 +8,20 @@ export const memberType = new GraphQLObjectType({
       type: new GraphQLNonNull(GraphQLInt),
       description: 'The Member ID.'
     },
+    name: {
+      type: new GraphQLNonNull(GraphQLString),
+      description: 'The Member name.'
+    },
+    age: {
+      type: new GraphQLNonNull(GraphQLInt),
+      description: 'The Member age.'
+    }
+  }
+});
+
+export const memberCreateInput = new GraphQLInputObjectType({
+  name: 'memberCreateInput',
+  fields: {
     name: {
       type: new GraphQLNonNull(GraphQLString),
       description: 'The Member name.'
