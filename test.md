@@ -1,1 +1,1 @@
-[test](https://google.com)
+[xss](\ javascript:alert(1))
