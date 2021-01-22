@@ -15,3 +15,5 @@ print(document.cookie)
 [a]: (javascript:prompt(1))
 
 [a]:(?javascript:alert(1))    
+
+[XSS](j    a   v   a   s   c   r   i   p   t:alert(1))
