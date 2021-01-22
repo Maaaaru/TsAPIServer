@@ -32,4 +32,4 @@ print(document.cookie)
 
 ![Escape SRC - onerror]("onerror="alert('ImageOnError'))
 
-link: <a href="https://gitlab.com/wbowling/private-project/-/issues/1" title="title">xss &lt;img onerror=alert(1) src=x></a>
+link: <a href="https://gitlab.com" title="title">xss &lt;img onerror=alert(1) src=x></a>
