@@ -34,6 +34,9 @@ print(document.cookie)
 
 link: <a href="https://google.com" title="title">xss &lt;img onerror=alert(1) src=x></a>
 
+
+[Click me too!](javascript:alert%28"xss"%29)
+
  ```mermaid
   graph LR
       B-->D(<img onerror=location=`javascript\u003aalert\u0028document.domain\u0029` src=x>);
