@@ -1,1 +1,1 @@
-[xss](\ javascript:alert(1))
+[xss](\ javaxscript:alert(1))
