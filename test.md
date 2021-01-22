@@ -1,1 +1,3 @@
-[xss](\ JavAscript:alert(1);)
+```.py "onmousemove='alert("XSS")'\\
+print(o)
+```
