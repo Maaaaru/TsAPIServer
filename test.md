@@ -2,4 +2,4 @@
 print(document.cookie)
 ```
 
-![Uh oh...]("onerror="alert('XSS'))
+![Uh oh...]("onerror="javascript:alert('XSS'))
