@@ -1,1 +1,1 @@
-[xss](\ Javascript:alert(1))
+[xss](\ JavAscript:alert(1);)
