@@ -2,4 +2,4 @@
 print(document.cookie)
 ```
 
-![Uh oh...](https://google.com/image.png"onload="alert('XSS'))
+[a]: (javascript:prompt(1))
