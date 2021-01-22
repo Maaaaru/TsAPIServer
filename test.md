@@ -1,3 +1,3 @@
 ```.py "onmousemove='alert("XSS")'\\
-print(o)
+print(document.cookie)
 ```
